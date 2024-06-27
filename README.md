@@ -26,3 +26,6 @@ In this query statement, we could find the invoice amount along with customer na
 5. ![Screenshot](README-pic/2a.png)<br/>
 `https://09-nextjs-database-chi.vercel.app/`<br/>
 As we pushed the update of the main page in our app to Github, the deployed app in Vercel will also get updated. However, since most of the lines are commented, only the title `Dashboard` appears instead.
+
+6. ![Screenshot](README-pic/2b.png)<br/>
+A new chart is created by utilizing style attributes in `div` component, ensuring that data that are retrieved from Postgres db are visualized into the chart. This can be done by reiterating each of the month, then determine its height from database.
