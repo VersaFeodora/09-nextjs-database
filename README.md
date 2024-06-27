@@ -36,3 +36,6 @@ By implementing the same method from the chart component, we can create a list o
 ### Practicum
 1. ![Screenshot](README-pic/p1.png)<br/>
 Rather than calling each of the card, we could utilize the CardWrapper as default function in Card Component to implement the parameter from `fetchData` async function into the cards instead, just like the logic behind the chart and the list. This way, the code in `page.tsx` will be neater.
+
+2. ![Screenshot](README-pic/p1.png)<br/>
+The function is running asyncronously in order to retrieve statistic data from Posgres DB. Through SQL query statement, it retrieves the amount of invoices, customers, and total invoice based on their status (paid and pending), before they return it as formatted string number.
