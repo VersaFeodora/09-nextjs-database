@@ -34,7 +34,7 @@ export default async function LatestInvoices() {
                                         height={32}
                                     />
                                     <div className="min-w-0">
-                                        <p className="truncate text-sm font-semibold md:text-base">
+                                        <p className="truncate text-sm text-black font-semibold md:text-base">
                                             {invoice.name}
                                         </p>
                                         <p className="hidden text-sm text-gray-500 sm:block">
