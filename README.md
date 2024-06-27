@@ -32,3 +32,7 @@ A new chart is created by utilizing style attributes in `div` component, ensurin
 
 7. ![Screenshot](README-pic/2c.png)<br/>
 By implementing the same method from the chart component, we can create a list of users into our application by using Postgres db. However, each of their image url is supposed to be inside `public/customers` folder, and said images are not given in template. We need to add it ourselves to make it appears.
+
+### Practicum
+1. ![Screenshot](README-pic/p1.png)<br/>
+Rather than calling each of the card, we could utilize the CardWrapper as default function in Card Component to implement the parameter from `fetchData` async function into the cards instead, just like the logic behind the chart and the list. This way, the code in `page.tsx` will be neater.
