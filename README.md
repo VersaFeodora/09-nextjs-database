@@ -17,3 +17,7 @@ We can use in-bult Serverless SQL Database in Vercel and connect it to our pojec
 3. ![Screenshot](README-pic/1c.png)<br/>
 We can add our database through seeder within React app by using `npm run seed`. In this way, we do not need to insert the database
 manually everytime we want to deploy the application. We use dotenv and bcrypt module for this.
+
+4. ![Screenshot](README-pic/1d.png)<br/>
+We can use query statement to retrieve the data from database within Vercel just like any SQL-based database does.
+In this query statement, we could find the invoice amount along with customer name that has been joined under the same table.
