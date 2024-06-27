@@ -29,3 +29,6 @@ As we pushed the update of the main page in our app to Github, the deployed app 
 
 6. ![Screenshot](README-pic/2b.png)<br/>
 A new chart is created by utilizing style attributes in `div` component, ensuring that data that are retrieved from Postgres db are visualized into the chart. This can be done by reiterating each of the month, then determine its height from database.
+
+7. ![Screenshot](README-pic/2c.png)<br/>
+By implementing the same method from the chart component, we can create a list of users into our application by using Postgres db. However, each of their image url is supposed to be inside `public/customers` folder, and said images are not given in template. We need to add it ourselves to make it appears.
