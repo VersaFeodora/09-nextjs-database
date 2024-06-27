@@ -21,3 +21,8 @@ manually everytime we want to deploy the application. We use dotenv and bcrypt m
 4. ![Screenshot](README-pic/1d.png)<br/>
 We can use query statement to retrieve the data from database within Vercel just like any SQL-based database does.
 In this query statement, we could find the invoice amount along with customer name that has been joined under the same table.
+
+### Practicum 2
+5. ![Screenshot](README-pic/2a.png)<br/>
+`https://09-nextjs-database-chi.vercel.app/`<br/>
+As we pushed the update of the main page in our app to Github, the deployed app in Vercel will also get updated. However, since most of the lines are commented, only the title `Dashboard` appears instead.
