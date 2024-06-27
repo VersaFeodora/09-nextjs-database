@@ -13,3 +13,7 @@ ensuring automatic update in Vercel app everytime we push it to the main branch
 
 2. ![Screenshot](README-pic/1b.png)<br/>
 We can use in-bult Serverless SQL Database in Vercel and connect it to our poject in Vercel by inputting API key into .env.
+
+3. ![Screenshot](README-pic/1c.png)<br/>
+We can add our database through seeder within React app by using `npm run seed`. In this way, we do not need to insert the database
+manually everytime we want to deploy the application. We use dotenv and bcrypt module for this.
