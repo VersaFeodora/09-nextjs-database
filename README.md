@@ -39,3 +39,7 @@ Rather than calling each of the card, we could utilize the CardWrapper as defaul
 
 2. ![Screenshot](README-pic/p1.png)<br/>
 The function is running asyncronously in order to retrieve statistic data from Posgres DB. Through SQL query statement, it retrieves the amount of invoices, customers, and total invoice based on their status (paid and pending), before they return it as formatted string number.
+
+### Practicum Week 10
+![Screenshot](README-pic/p3.png)<br/>
+The login page has successfully been added. However, due to the faults within authentication codes, the login function may not work as intended.
